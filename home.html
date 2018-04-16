@@ -54,6 +54,22 @@
 <script>
   function testTheTruth() {
     testResults('1 is equal to 1', 1 === 1);
+	testResults('2 is not equal to 1', 2 !== 1);
+	testResults('2 is equal to 1 compare', 2 === 1);
+	testResults('Asegurarse que el Nombre esta en mayusculas', 1 === 1);
+	testResults('Asegurarse que el Nombre esta en mayusculas', 1 === 1);
+	var todaysDate = new Date();
+	var anio=todaysDate.getFullYear();
+	
+	testResults('Si es el anio actual', anio === 2018);
+	
+	
+	
+	
+	
+	
+	
+	
   }
   (function() {
     testTheTruth();
@@ -65,7 +81,7 @@
 </head>
 <body>
 <h1>Seminario DevOps 160418</h1>
-<span id = "greeting"> </span>
+<span id="greeting"></span>
 <div id="library">
   <h3>Users</h3>
   <div id="users">
